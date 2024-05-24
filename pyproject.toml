@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "converter-using-fastapi"
+version = "0.1.0"
+description = "Aplicando conhecimento obtido em fast api no Curso de FastAPI avançado"
+authors = ["Samuel Perroni"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+requests = "^2.32.2"
+aiohttp = "^3.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
